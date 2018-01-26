@@ -1,0 +1,264 @@
+body,
+a {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: rgb(96, 94, 94);
+    line-height: 1.4em;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* Header */
+
+.address {
+    margin-top: 24px;
+    margin-left: 40px;
+	margin-bottom: 24px;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+h1 {
+    width: 100%;
+    margin: 0 0 66px 0;
+    color: rgb(188, 155, 93);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 54px;
+    font-weight: normal;
+    letter-spacing: 12px;
+}
+
+/* Navbar */
+
+.navbar-container {
+    border: 2px #f8f8f8 solid;
+}
+
+.table {
+    display: table;
+    width: 100%;
+}
+
+.table-cell {
+    text-align: center;
+    display: table-cell;
+    max-width: 0px;
+    line-height: 3em;
+    font-size: 14px;
+}
+
+.selected {
+    color: rgb(188, 155, 93);
+}
+
+/* Large image banner */
+
+.imagehead {
+/*    width: 1060px;*/
+    height: 450px;
+    /*clip-path: inset(50px 0px 0px 0px);
+    margin-top: -50px;*/
+    background: url(../img/web-design/restaurant/image6.jpg);
+    background-attachment: fixed;
+/*    background-repeat: no-repeat;*/
+/*    background-position: calc(50%);*/
+/*    background-size: 1908px 1170px;*/
+	background-size: cover;
+
+}
+
+/* Blog post thingies */
+
+/* #posts {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	height: 1270px;
+} */
+
+.left,
+.right {
+    width: 46%;
+    border: 0px #000 solid;
+}
+
+.left {
+    margin-right: 3%;
+    float: left;
+}
+
+.right {
+    margin-left: 3%;
+    float: left;
+}
+
+/* .post {
+	width: calc(37 / 82 * 100%); width less margin less border
+	margin: calc(1  / 82 * 100%);
+	border: 0px solid #ccc;
+	box-sizing: border-box;
+} */
+
+.post {
+    margin: 50px 0;
+
+}
+
+.post-text {
+    padding-right: 80px;
+    /* min-height: 300px; */
+}
+
+h2 {
+    font-family: 'Libre Baskerville', 'Crimson Text', serif;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 1px;
+    line-height: 38px;
+    color: rgb(188, 155, 93);
+}
+
+h4 {
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+#image3 {
+    /*  Two women eating at a table  */
+    margin-top: 150px;
+    background: url(../img/web-design/restaurant/image3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+#image2 {
+    /*  Two women eating at a table  */
+    background: url(../img/web-design/restaurant/image2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 257px;
+}
+
+#image1 {
+    /*  Two women eating at a table  */
+    background: url(../img/web-design/restaurant/image1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 309px;
+}
+
+#image4 {
+    /*  Two women eating at a table  */
+    background: url(../img/web-design/restaurant/image4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 461px;
+}
+
+
+/* Order Online */
+
+.center-80 {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+.orderonlinebg {
+
+    height: 603px;
+    position: relative;
+    background: url("../img/web-design/restaurant/image7.jpg");
+    background-size: cover;
+}
+
+.orderonlinefg {
+    position: absolute;
+    display: table;
+    top: 38%;
+    left: 30%;
+    width: 40%;
+    height: 25%;
+    background: white;
+}
+
+.orderonlinefg-text {
+    display: table-cell;
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.orderonlinefg p {
+    font-family: "Bookman Old Style", "Bookman", "Cantata One", serif;
+    margin-top: -5px;
+    font-size: 32px;
+}
+
+.readmore {
+    font-weight: bold;
+    color: rgb(47, 46, 46);
+}
+
+.fancylink {
+    transition: color 0.3s linear;
+    -webkit-transition: color 0.3s linear;
+    -moz-transition: color 0.3s linear;
+}
+
+.fancylink:hover {
+    color: rgb(203, 203, 203);
+}
+
+/* Footer */
+
+.footer {
+    /*margin-bottom: 50px;*/
+    height: 620px;
+    /*480 + 215*/
+    background: rgb(188, 155, 93);
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    margin-bottom: -15px;
+}
+
+.review {
+    text-align: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.imagefootbg {
+    background: white;
+}
+
+.imagefoot {
+    height: 480px;
+    background: url(../img/web-design/restaurant/image5.jpg);
+    opacity: 0.95;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.copyright {
+    color: white;
+    margin-top: 50px;
+    margin-left: 67.5%;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 19px;
+}
