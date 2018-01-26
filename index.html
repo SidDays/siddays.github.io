@@ -61,10 +61,10 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
-       <div class="intro-lead-in">Welcome to my showcase!</div>
+        <div class="intro-lead-in">Welcome to my showcase!</div>
         <div class="intro-heading text-uppercase">Pleased to meet you!</div>
-        
-        
+
+
         <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Get Started</a>
       </div>
     </div>
@@ -279,6 +279,49 @@
   <!-- Portfolio Modals -->
 
   <!-- Modal Deimos -->
+  <div class="portfolio-modal modal fade" id="portfolioModalDbTrack" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">DbTrack</h2>
+                <p class="item-intro text-muted">Employee Tracking System in ASP.NET/C#</p>
+                <p>DbTrack was an employee tracking system developed by students of K. J. Somaiya College of Engineering (Hemang Tailor, Chintan Doshi and Akshat Gandhi) to help police officers of the Mumbai Anti-Corruption Bureau (ABC) to manage their employees.</p>
+                <!--<p>It contained features such as keeping employee records, managing communication and generating reports.</p>-->
+                <img class="img-fluid d-block mx-auto" src="img/portfolio/dbtrack-home.jpg" alt="DbTrack image">
+                
+                <p>In 2015, the ACB needed updates to the system with additional features. I revised the login module and storage mechanisms, implementing additional security features such as CAPTCHA, password hashing and a password reset function. I helped deploy the updated software on the ACB computers.</p>
+                
+                <p>My responsibilities also included providing technical support using TeamViewer to solve configuration and network issues.</p>
+                <p>In a team of 6 (including myself - Siddhesh Karekar, Bhushan Pathak, Ashutosh Mahajan, Amogh Bhabal, Aditya Godambe, and Chinmay Karanjkar) we conducted training sessions for the police to educate them on the software's usage.</p>
+                
+                <p> K. J. Somaiya College of Engineering awarded us with a Letter of Appreciation for our efforts.</p>
+                
+                <ul class="list-inline">
+                  <li>Date: May 2015 - February 2016, including development and maintenance</li>
+                  <li>Client: Anti-Corruption Bureau, Mumbai, India</li>
+                  <!--<li>Team: Siddhesh Karekar, </li>-->
+                </ul>
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                    <i class="fa fa-times"></i>
+                    Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Deimos -->
   <div class="portfolio-modal modal fade" id="portfolioModalDeimos" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
@@ -294,14 +337,19 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Deimos</h2>
                 <p class="item-intro text-muted">A data mining/machine learning in Java with a JavaFX GUI</p>
+
+                <p>For any organization that serves customers, profiling their users is important, so as to target them with relevant information.</p>
+                <p>Deimos is a Java-based system that aims to help doing the same. It estimates the user's demographic attributes - specifically, their age, gender and interests, by analyzing web pages they have visited.</p>
+                <p>It uses a TF-IDF classifier to analyize browser history, which is later fed into a neural network to generate output. The system allows visualizing output in the form of a nice tag cloud:</p>
                 <img class="img-fluid d-block mx-auto" src="img/portfolio/deimos-predict.jpg" alt="">
-                <p>Led a team to develop a system in Java for determining a user’s demographic attributes, by analyzing locally stored browser history</p>
-                <p>Performed TF-IDF classification for mining data and neural network to predict user demographics</p>
-                <p>Applied system to shopping website data to profile viewers based on visited web pages</p>
+
+                <p>During our tests, the system was applied to shopping website data to profile viewers based on visited web pages, and performed with reasonable accuracy. Check out the source code and the research we've published below.</p>
+
                 <ul class="list-inline">
-                  <li>Date: January 2017</li>
-                  <li>Client: Threads</li>
-                  <li>Category: Illustration</li>
+                  <li>Date: May 2016 - May 2017</li>
+                  <li>Client: K. J. Somaiya College of Engineering (final year project)</li>
+                  <li>Links: <a href="https://git.io/vNkCq">GitHub repository</a>, <a href="http://www.ijcaonline.org/archives/volume171/number4/28167-2017915012">Research Paper at IJCA</a></li>
+                  <li>Team: Siddhesh Karekar (leader), Bhushan Pathak, Amogh Bhabal</li>
                 </ul>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                     <i class="fa fa-times"></i>
