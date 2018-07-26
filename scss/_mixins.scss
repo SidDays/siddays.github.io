@@ -8,15 +8,14 @@
 }
 
 // Font Mixins
-@mixin serif-font {
+@mixin script-font {
+  font-family: 'Merienda One', 'Lucida Handwriting', 'Apple Chancery', cursive;
+}
+
+@mixin body-font {
   font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-@mixin script-font {
-  font-family: 'Merienda One', 'Helvetica Neue', Helvetica, Arial, cursive;
-}
-@mixin body-font {
-  font-family: 'Roboto', sans-serif;
-}
+
 @mixin heading-font {
   font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
