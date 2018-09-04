@@ -1,0 +1,28 @@
+{
+  "name": "sidrk.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio website showcasing the different projects I've worked on",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidrk/sidrk.github.io.git"
+  },
+  "keywords": [
+    "bootstrap4",
+    "jquery",
+    "sass",
+    "portfolio",
+    "html5"
+  ],
+  "author": "Siddhesh Rajiv Karekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sidrk/sidrk.github.io/issues"
+  },
+  "homepage": "https://github.com/sidrk/sidrk.github.io#readme",
+  "devDependencies": {
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
+  }
+}
