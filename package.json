@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "Portfolio website showcasing the different projects I've worked on",
   "private": true,
-  "scripts": {},
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sidrk/sidrk.github.io.git"
@@ -22,7 +26,9 @@
   },
   "homepage": "https://github.com/sidrk/sidrk.github.io#readme",
   "devDependencies": {
+    "gh-pages": "^2.0.0",
     "webpack": "^4.17.2",
-    "webpack-cli": "^3.1.0"
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8"
   }
 }
