@@ -1,2 +1,4 @@
+# Raw assets, such as PSDs
+raw/
+
 node_modules
-raw/*
