@@ -26,8 +26,11 @@
   },
   "homepage": "https://github.com/sidrk/sidrk.github.io#readme",
   "devDependencies": {
+    "jquery": "^3.3.1",
+    "jquery.easing": "^1.4.1",
     "webpack": "^4.17.2",
     "webpack-cli": "^3.1.0",
     "webpack-dev-server": "^3.1.8"
-  }
+  },
+  "dependencies": {}
 }
