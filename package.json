@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "dev": "webpack --mode development",
-    "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open"
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -26,11 +25,8 @@
   },
   "homepage": "https://github.com/sidrk/sidrk.github.io#readme",
   "devDependencies": {
-    "jquery": "^3.3.1",
-    "jquery.easing": "^1.4.1",
     "webpack": "^4.17.2",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-cli": "^3.1.0"
   },
   "dependencies": {}
 }
