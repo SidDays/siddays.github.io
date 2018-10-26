@@ -7,15 +7,17 @@
   background-size: cover;
 }
 
-// Font Mixins
-@mixin script-font {
-  font-family: 'Merienda One', 'Lucida Handwriting', 'Apple Chancery', cursive;
+// Font files
+@font-face {
+  font-family: Gravity;
+  src: url('../fonts/Gravity-Regular.otf') format("opentype");
 }
 
+// Font Mixins
 @mixin body-font {
-  font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Gravity', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 @mixin heading-font {
-  font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Karla', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
