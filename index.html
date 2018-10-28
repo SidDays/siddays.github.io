@@ -43,7 +43,7 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Intro</a>
+            <a class="nav-link js-scroll-trigger" href="#introduction">Intro</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
@@ -63,13 +63,13 @@
         <div class="intro-lead-in">Welcome to my showcase!</div>
         <div class="intro-heading text-uppercase">Pleased to meet you!</div>
 
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Get Started</a>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#introduction">Get Started</a>
       </div>
     </div>
   </header>
 
   <!-- Introduction -->
-  <section class="bg-light" id="services">
+  <section class="bg-light" id="introduction">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -104,10 +104,27 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Portfolio</h2>
-          <h3 class="section-subheading text-muted">A selection of projects I've worked on, demonstrating my skills.</h3>
+          <h3 class="section-subheading">A selection of projects demonstrating my skills. Click on a project to learn
+            more, then click close or hit <code>Esc</code> to return.</h3>
         </div>
       </div>
       <div class="row">
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModalNavvyGate">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-exclamation-triangle fa-3x"></i>
+                <div>Under Construction</div>
+              </div>
+            </div>
+            <img class="img-fluid" src="/img/portfolio/navvygate/thumb.jpg" alt="NavvyGate Screenshot">
+          </a>
+          <div class="portfolio-caption">
+            <h4>NavvyGate</h4>
+            <p class="text-muted">Responsive AngularJS SPA + Android App</p>
+          </div>
+        </div>
 
         <div class="col-md-4 col-sm-6 portfolio-item">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModalFruitRage">
@@ -116,7 +133,7 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/img/portfolio/fruitrage-thumb.jpg" alt="Super Fruit Riot logo">
+            <img class="img-fluid" src="/img/portfolio/fruitrage/thumb.jpg" alt="Super Fruit Riot logo">
           </a>
           <div class="portfolio-caption">
             <h4>Super Fruit Riot</h4>
@@ -131,11 +148,41 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/img/portfolio/deimos-thumb.jpg" alt="Deimos screenshot">
+            <img class="img-fluid" src="/img/portfolio/deimos/thumb.jpg" alt="Deimos screenshot">
           </a>
           <div class="portfolio-caption">
             <h4>Deimos</h4>
             <p class="text-muted">Data Mining System in Java/JavaFX</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModalLivFit">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="/img/portfolio/livfit/thumb.jpg" alt="LivFit Thumbnail">
+          </a>
+          <div class="portfolio-caption">
+            <h4>LivFit</h4>
+            <p class="text-muted">PHP/MySQL site for fitness enthusiasts</p>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModalGrylle">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fa fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid" src="/img/portfolio/grylle/thumb.jpg" alt="Grylle Thumbnail">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Grylle</h4>
+            <p class="text-muted">Web page design using compatible CSS</p>
           </div>
         </div>
 
@@ -146,7 +193,7 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/img/portfolio/dbtrack-thumb.jpg" alt="DbTrack logo">
+            <img class="img-fluid" src="/img/portfolio/dbtrack/thumb.jpg" alt="DbTrack logo">
           </a>
           <div class="portfolio-caption">
             <h4>DbTrack</h4>
@@ -161,26 +208,11 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/img/portfolio/dots-thumb.jpg" alt="Dots game screenshot">
+            <img class="img-fluid" src="/img/portfolio/dots/thumb.jpg" alt="Dots game screenshot">
           </a>
           <div class="portfolio-caption">
             <h4>Dots</h4>
             <p class="text-muted">Game in Java/Swing</p>
-          </div>
-        </div>
-
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModalWebDesign">
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fa fa-plus fa-3x"></i>
-              </div>
-            </div>
-            <img class="img-fluid" src="/img/portfolio/webdesign-thumb.jpg" alt="Web Design Thumbnail">
-          </a>
-          <div class="portfolio-caption">
-            <h4>Web Design</h4>
-            <p class="text-muted">Web site design examples</p>
           </div>
         </div>
 
@@ -191,7 +223,7 @@
                 <i class="fa fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="/img/portfolio/karaoke-thumb.jpg" alt="">
+            <img class="img-fluid" src="/img/portfolio/karaoke/thumb.jpg" alt="">
           </a>
           <div class="portfolio-caption">
             <h4>YouTube Channel</h4>
@@ -299,13 +331,17 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Super Fruit Riot</h2>
-                <p class="item-intro text-muted">Android Game</p>
+                <p class="item-intro">
+                  <span class="badge badge-primary">Android</span>
+                  <span class="badge badge-primary">Artificial Intelligence</span>
+                  <span class="badge badge-primary">Game</span>
+                </p>
 
                 <p>Super Fruit Riot is an Android game similar to Candy Crush, with the interesting twist that you play
                   against an AI, as compared to most variants where you aim to outscore yourself.
                 </p>
 
-                <img class="img-fluid d-block mx-auto" src="/img/portfolio/fruitrage.jpg" alt="Super Fruit Riot screenshot">
+                <img class="img-fluid d-block mx-auto" src="/img/portfolio/fruitrage/screenshot.jpg" alt="Super Fruit Riot screenshot">
 
                 <p>The AI is a Minimax agent with Alpha-Beta pruning. It dynamically selects a lookahead depending on
                   its remaining team. The objective of the game is to score more points than the AI before the board
@@ -348,9 +384,15 @@
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">DbTrack</h2>
 
-                <p class="item-intro text-muted">Employee Tracking System in ASP.NET/C#</p>
+                <p class="item-intro">
+                  <span class="badge badge-primary">ASP.NET</span>
+                  <span class="badge badge-primary">C#</span>
+                  <span class="badge badge-primary">Training</span>
+                  <span class="badge badge-primary">Maintenance</span>
+                  <span class="badge badge-primary">Technical Support</span>
+                </p>
 
-                <img class="img-fluid d-block mx-auto" src="/img/portfolio/dbtrack-home.jpg" alt="DbTrack image">
+                <img class="img-fluid d-block mx-auto" src="/img/portfolio/dbtrack/home.jpg" alt="DbTrack image">
 
                 <p>DbTrack was developed by students of K. J. Somaiya College of Engineering (Hemang Tailor, Chintan
                   Doshi and Akshat Gandhi) to help officers of the Mumbai Anti-Corruption Bureau (ACB) to manage their
@@ -370,7 +412,7 @@
                   language, Marathi.</p>
 
                 <figure class="figure">
-                  <img class="figure-img img-fluid d-block mx-auto rounded" src="/img/portfolio/dbtrack-team.JPG" alt="DbTrack team">
+                  <img class="figure-img img-fluid d-block mx-auto rounded" src="/img/portfolio/dbtrack/team.JPG" alt="DbTrack team">
                   <figcaption class="figure-caption">From the left: Ashutosh Mahajan, Bhushan Pathak, Siddhesh Karekar
                     (me), Aditya Godambe, Chinmay Karanjkar, Amogh Bhabal.</figcaption>
                 </figure>
@@ -408,7 +450,13 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Deimos</h2>
-                <p class="item-intro text-muted">A data mining/machine learning in Java with a JavaFX GUI</p>
+                <p class="item-intro">
+                  <span class="badge badge-primary">Java</span>
+                  <span class="badge badge-primary">JavaFX GUI</span>
+                  <span class="badge badge-primary">Oracle</span>
+                  <span class="badge badge-primary">Data Mining</span>
+                  <span class="badge badge-primary">Neural Network</span>
+                </p>
 
                 <p>For any organization that serves customers, profiling their users is important, so as to target them
                   with relevant information.</p>
@@ -416,7 +464,7 @@
                   attributes - specifically, their age, gender and interests, by analyzing web pages they have visited.</p>
                 <p>It uses a TF-IDF classifier to analyize browser history, which is later fed into a neural network to
                   generate output. The system allows visualizing output in the form of a nice tag cloud:</p>
-                <img class="img-fluid d-block mx-auto" src="/img/portfolio/deimos-predict.jpg" alt="">
+                <img class="img-fluid d-block mx-auto" src="/img/portfolio/deimos/predict.jpg" alt="">
 
                 <p>During our tests, the system was applied to shopping website data to profile viewers based on
                   visited web pages, and performed with reasonable accuracy.</p>
@@ -459,13 +507,17 @@
               <div class="modal-body">
                 <!-- Project Details Go Here -->
                 <h2 class="text-uppercase">Dots</h2>
-                <p class="item-intro text-muted">Java Game with Swing GUI</p>
+                <p class="item-intro">
+                  <span class="badge badge-primary">Java</span>
+                  <span class="badge badge-primary">Swing GUI</span>
+                  <span class="badge badge-primary">Game</span>
+                </p>
 
                 <p>Dots is an attempt to recreate the pencil-and-paper children's game of Dots and Boxes.
                   <p>The game features a Swing GUI, but is also fully functional via the console. The GUI allows you to
                     customize the number of players, each player getting their own unique color.</p>
 
-                  <img class="img-fluid d-block mx-auto" src="/img/portfolio/dots.jpg" alt="Dots screenshot">
+                  <img class="img-fluid d-block mx-auto" src="/img/portfolio/dots/screenshot.jpg" alt="Dots screenshot">
 
                   <p>Rules are the same: Players take turns joining two horizontally or vertically adjacent dots by a
                     line. When a player completes a 1&times;1 box, they 'win' that square and play again. The player
@@ -487,8 +539,8 @@
     </div>
   </div>
 
-  <!-- Modal Web Design -->
-  <div class="portfolio-modal modal fade" id="portfolioModalWebDesign" tabindex="-1" role="dialog" aria-hidden="true">
+  <!-- Modal LivFit -->
+  <div class="portfolio-modal modal fade" id="portfolioModalLivFit" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
@@ -501,33 +553,16 @@
             <div class="col-lg-8 mx-auto">
               <div class="modal-body">
                 <!-- Project Details Go Here -->
-                <h2 class="text-uppercase">Web Design</h2>
-                <p class="item-intro text-muted">Web design showcase - HTML/CSS/JavaScript/PHP</p>
-
-                <p>This page contains examples of my web design projects, meant to showcase my skills in designing web
-                  pages and applications.</p>
-
-                <hr>
-
-                <div>
-                  <h3>Grylle - Restaurant Page Design Example</h3>
-                  <img class="img-fluid d-block mx-auto" src="/img/portfolio/grylle.jpg" alt="LivFit Diet Planner Screenshot">
-                  <p>Grylle is a demonstration of beautiful web design possible using only HTML and CSS. It is the home
-                    page for a fictitional restaurant.</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2018</li>
-                    <li>Client: University of Southern California (part of Web Technologies Coursework)</li>
-                    <li>Team: Siddhesh Karekar</li>
-                    <li>Links: <a href="/grylle/">Grylle website</a>, <a href="https://github.com/sidrk/sidrk.github.io/blob/master/restaurant.html">GitHub
-                        Repository</a></li>
-                  </ul>
-                </div>
-
-                <hr>
+                <h2 class="text-uppercase">LivFit</h2>
+                <p class="item-intro">
+                  <span class="badge badge-primary">PHP</span>
+                  <span class="badge badge-primary">MySQL</span>
+                  <span class="badge badge-primary">XML</span>
+                  <span class="badge badge-primary">XSLT</span>
+                </p>
 
                 <div>
-                  <h3>LivFit - Fitness Website</h3>
-                  <img class="img-fluid d-block mx-auto" src="/img/portfolio/livfit-dietplanner.jpg" alt="LivFit Diet Planner Screenshot">
+                  <img class="img-fluid d-block mx-auto" src="/img/portfolio/livfit/dietplanner.jpg" alt="LivFit Diet Planner Screenshot">
                   <p>Livfit is a fitness website made in a team of 4 using PHP, XML and JavaScript, showcasing features
                     like:
 
@@ -537,7 +572,7 @@
                     <br>- Interactive Quizzes for fun
                     <br>- BMI Calculator</p>
 
-                  <p>It was meant to demonstrate what a full-fledged fitness would look like.</p>
+                  <p>It was meant to demonstrate what a full-fledged fitness website would look like.</p>
                   <ul class="list-inline">
                     <li>Date: July 2015 - October 2015</li>
                     <li>Client: K. J. Somaiya College of Engineering (part of Web Technologies Coursework)</li>
@@ -545,15 +580,57 @@
                     <li>Links: <a href="http://livfit.byethost14.com">LivFit website</a>, <a href="http://git.io/vN9uQ">GitHub
                         Repository</a></li>
                   </ul>
-
-
                 </div>
-
-
 
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
                   <i class="fa fa-times"></i>
                   Close Project</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Grylle -->
+  <div class="portfolio-modal modal fade" id="portfolioModalGrylle" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Grylle</h2>
+                <p class="item-intro">
+                  <span class="badge badge-primary">HTML</span>
+                  <span class="badge badge-primary">CSS</span>
+                </p>
+
+                <div>
+                  <img class="img-fluid d-block mx-auto" src="/img/portfolio/grylle/screenshot.jpg" alt="LivFit Diet Planner Screenshot">
+                  <p>Grylle is a demonstration of beautiful web design possible using only HTML and IE-friendly CSS
+                    (without all the modern hoopla). It is the home
+                    page for a fictitional restaurant.</p>
+                  <ul class="list-inline">
+                    <li>Date: January 2018</li>
+                    <li>Client: University of Southern California (part of Web Technologies Coursework)</li>
+                    <li>Team: Siddhesh Karekar</li>
+                    <li>Links: <a href="/grylle/">Grylle website</a>, <a href="https://github.com/sidrk/grylle">GitHub
+                        Repository</a></li>
+                  </ul>
+                </div>
+
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fa fa-times"></i>
+                  Close Project
+                </button>
               </div>
             </div>
           </div>
@@ -586,7 +663,7 @@
                   popular songs using FL Studio, then design graphics and karaoke lyric videos set to them using Adobe
                   Photoshop and Sony Vegas Pro.</p>
 
-                <img class="img-fluid d-block mx-auto" src="/img/portfolio/karaoke-full.jpg" alt="YouTube screenshot">
+                <img class="img-fluid d-block mx-auto" src="/img/portfolio/karaoke/gallery.jpg" alt="YouTube screenshot">
 
                 <p>To date, I've amassed ~5000 subscribers, and ~3 million views on my videos! Do check them out if
                   you're interested in music and karaoke.</p>
