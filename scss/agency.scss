@@ -1,5 +1,9 @@
-// Custom variables and mixins
+// Bootstrap
+@import "../node_modules/bootstrap/scss/functions";
 @import "variables";
+@import "../node_modules/bootstrap/scss/mixins";
+
+// Custom variables and mixins
 @import "global";
 
 // Custom components
@@ -10,11 +14,6 @@
 @import "timeline";
 @import "team";
 @import "footer";
-
-// Bootstrap
-@import "../node_modules/bootstrap/scss/functions";
-@import "../node_modules/bootstrap/scss/variables";
-@import "../node_modules/bootstrap/scss/mixins";
 
 // Bootstrap Components
 @import "../node_modules/bootstrap/scss/root";
