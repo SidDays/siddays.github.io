@@ -4,8 +4,6 @@
   "description": "Portfolio website showcasing the different projects I've worked on",
   "private": true,
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
